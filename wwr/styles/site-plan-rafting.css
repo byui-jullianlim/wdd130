@@ -1,0 +1,28 @@
+
+/*Typography*/
+
+#headingfont {
+    font-family: Tahoma;
+}
+
+#normalfont
+#calloutfont,
+p {
+    font-family: Arial;
+    font-size: medium;
+}
+
+:root {
+    --primary-color:#044662;
+    --secondary-color: #E07800;
+    --accent1-color:#128DBA;
+    --accent2-color:#7F5B24;
+
+    --heading-font: Tahoma;
+    --paragraph-font: Arial;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent1-color)
+    --nav-hover-link-color:var(--secondary-color)
+    --nav-hover-background-color:var(--accent2-color)
+}
