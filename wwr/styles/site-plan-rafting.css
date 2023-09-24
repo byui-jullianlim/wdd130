@@ -5,7 +5,7 @@
     font-family: Tahoma;
 }
 
-#normalfont
+#normalfont,
 #calloutfont,
 p {
     font-family: Arial;
@@ -22,8 +22,8 @@ p {
     --paragraph-font: Arial;
 
     --nav-background-color:var(--primary-color);
-    --nav-link-color:var(--accent1-color)
-    --nav-hover-link-color:var(--secondary-color)
+    --nav-link-color:var(--accent1-color);
+    --nav-hover-link-color:var(--secondary-color);
     --nav-hover-background-color:var(--accent2-color)
 }
 
@@ -56,7 +56,7 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     display: flex;
 }
 
