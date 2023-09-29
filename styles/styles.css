@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 main {
     max-width: 840px;
 }
@@ -30,4 +37,22 @@ footer {
     text-align: center;
 }
 
+/* Class Selectors */
 
+.box {
+    margin: 1rem;
+    border: 1px black;
+    padding: 1rem;
+    background-color: #D3ECEA;
+    color: #186380;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+main img {
+    float: right;
+}
