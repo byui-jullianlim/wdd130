@@ -2,14 +2,16 @@
 /* Typography */
 
 #headingfont {
-    font-family: Tahoma;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 #normalfont,
 #calloutfont,
 p {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@900&display=swap');
 
 :root {
     --primary-color: #186380;
@@ -17,8 +19,8 @@ p {
     --accent1-color:#570F0F;
     --accent2-color:#D3ECEA;
 
-    --heading-font: Tahoma;
-    --paragraph-font: Arial;
+    --heading-font: Roboto;
+    --paragraph-font: Mulish;
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--accent1-color);

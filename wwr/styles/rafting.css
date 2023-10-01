@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@900&display=swap');
+
+:root {
+    --primary-color: #186380;
+    --secondary-color: #F09024;
+    --accent1-color:#570F0F;
+    --accent2-color:#D3ECEA;
+
+    --heading-font: Roboto;
+    --paragraph-font: Mulish;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--accent1-color);
+    --nav-hover-link-color:var(--secondary-color);
+    --nav-hover-background-color:var(--accent2-color)
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: auto;
+    background-color: var(--accent2-color);
+}
+
+header img {
+    max-width: 30%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: 100px;
+}
+
+.hero img {
+    display: block;
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    height: auto;
+}
+
+article {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
+    padding: 20px;
+    margin-bottom: auto;
+    max-width: auto; 
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+    border: 3px solid var(--accent1-color);
+}
+
