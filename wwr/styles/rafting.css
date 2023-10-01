@@ -30,11 +30,17 @@ header img {
 
 nav {
     display: flex;
+    background-color: var(--accent2-color); 
+    color: black; 
 }
 
 nav a {
     display: flex;
+    padding: 20px;
+}
 
+nav:hover {
+    background-color: var(--secondary-color);
 }
 
 h1,
@@ -83,8 +89,6 @@ a:active {
 
 article {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
-    padding: 20px;
     margin-bottom: auto;
     max-width: auto; 
 }
