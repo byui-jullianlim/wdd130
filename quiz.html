@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Quiz</title>
+  <meta name="description" content="An Online Quiz Game about HTML and CSS.">
+  <meta name="author" content="Jullian Krysten Lim">
+
+  <link rel="stylesheet" href="/styles/quiz.css">
+</head>
+<body>
+  <h1>Basic HTML and CSS Quiz</h1>
+
+  <form action="submit_quiz.php" method="post">
+    <!-- Question 1 -->
+    <label for="q1">1. Alright, let's kick off with some web lingo! What's the secret behind the acronym HTML?</label>
+    <input type="text" id="q1" name="q1" required>
+
+    <!-- Question 2 -->
+    <label for="q2">2. Tell us what CSS does in the world of web development.</label>
+    <textarea id="q2" name="q2" required></textarea>
+
+    <!-- Question 3 -->
+    <label for="q3">3. Dive into HTML tags: Which one lets you create a list that's not into numbers, but still a blast?</label>
+    <select id="q3" name="q3" required>
+      <option value="" selected disabled>Choose One...</option>
+      <option value="ul">UL</option>
+      <option value="ol">OL</option>
+      <option value="li">LI</option>
+    </select>
+
+    <!-- Question 4 -->
+    <label for="q4">4. HTML5 fun fact: How many levels of headings does it offer for your web adventures?</label>
+    <input type="number" id="q4" name="q4" required>
+
+    <button type="submit">Submit Quiz</button>
+  </form>
+</body>
+</html>
