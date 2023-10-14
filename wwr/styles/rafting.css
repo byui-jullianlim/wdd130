@@ -15,7 +15,7 @@
     --nav-hover-background-color:var(--accent2-color)
 }
 
-* {
+{
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -98,7 +98,7 @@ p {
     color: var(--accent1-color);
     text-align: justify;
     margin: 1rem;
-    padding: 0.2rem;
+    padding: 3px;
     max-width: 100%;
     background-color: gainsboro;
 }
@@ -111,7 +111,7 @@ p {
     text-align: justify;
     justify-content: center;
     padding: 1rem;
-    margin: 0.5rem;
+    margin-top: 0.5rem;
     max-width: 100%;
 }
 
@@ -171,7 +171,7 @@ article img {
 }
 
 section .arrange {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     padding: 0.5rem;
     align-items: center;
     max-width: 100%;
