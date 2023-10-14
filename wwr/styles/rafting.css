@@ -15,6 +15,10 @@
     --nav-hover-background-color:var(--accent2-color)
 }
 
+* {
+    max-width: 100%;
+}
+
 /* HEADER */
 
 header {
@@ -44,7 +48,6 @@ nav {
 nav a {
     display: flex;
     padding: 30px;
-    transition: transform .2s;
 }
 
 a:link {
