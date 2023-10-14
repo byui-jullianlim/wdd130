@@ -25,36 +25,41 @@ main {
     max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
-    text-align: left;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+h1 {
+    color: var(--accent1-color);
+    text-align: center;
+    text-decoration: solid;
 }
 
 aside {
-    width: max-content;
-    height: max-content;
-    border-radius: 1rem;
+    width: 20rem;
+    height: 45rem;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
     margin: 1rem;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 4rem;
     background-color: #eee;
-    color: #333;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
-    text-align: justify;
 }
 
 aside img {
     width: 18rem;
-    height: 15rem;
+    height: 20rem;
 }
 
 main img {
-    width: 15rem;
+    width: 18rem;
     height: auto;
-    float: right
+    float: right;
+    padding: 1rem;
 }
 
 p { padding: 0;}
@@ -78,8 +83,9 @@ footer {
 
 aside h2 {
     position: absolute;
-    left: 4rem;
-    bottom: 26rem;
+    left: 5rem;
+    bottom: 41rem;
+    font-size:  1.5rem;
 }
 
 /* Week 04 Changes */
@@ -129,4 +135,14 @@ nav a:active {
 .grid {
     display: grid;
     align-items: center;
+}
+
+ul.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent2-color);
+    width: 31rem;
+    height: 5rem;
 }
