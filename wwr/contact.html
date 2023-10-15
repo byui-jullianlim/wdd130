@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <meta name="description" content="The rafting site plan outlines its purpose, target audience, branding details, and a website style guide for the course project.">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact Information of Jull's White Water Rafting">
     <meta name="author" content="Jullian Krysten Lim">
     
     <link rel="stylesheet" href="styles/rafting.css">
@@ -22,61 +22,31 @@
     </header>
     
     <main>
-        <div class="hero"> 
-            <img src="images/hero.jpeg" alt="Rafting Experience">
-        </div>
-        <div>
-            <h1>Jull's White Water Rafting</h1>
-            <article class="side">
-                <img src="images/happycustomerrafting.jpeg" alt="Happy Customer Rafting">
-
-                <h3>Company's Purpose:</h3>
-                <p>Jull's White Water Rafting Adventure is all about creating epic, exciting, and safe experiences that let you feel the thrill of nature's power while building unforgettable memories.</p>
-                
-                <h3>Mission:</h3>
-                <p>Our mission is simple yet powerful: We're here to provide heart-pounding white-water rafting adventures that are safe, fun, and connect people with the wild side of life. We want to make sure everyone can enjoy the rush of nature's excitement and create lasting bonds with fellow adventurers.</p>
-                    
-                <h3>Creed:</h3>
-                <p>We live by the adventure code, which means we're passionate about exploring untamed rivers, having a blast, and making friends along the way. Safety is our top priority, and passion is our guiding star. Adventure is our way of life.</p>
-
-                <h3>Motto:</h3>
-                <p>Where Excitement Flows, and Friendships Grow!
-                    Let's Dive into Nature's Thrills Together!</p>
-            </article>
-        </div>
-
-        <section class="history">
-            <h2 class="arrange">History</h2>
-            <p>Founded in 2023 by Jullian Krysten Lim, Jull's White Water Rafting Adventure was born out of a passion for adventure. Starting with a single raft, the company has grown into a premier adventure tourism brand, offering thrilling and safe white-water rafting experiences across the country. With a commitment to adventure and safety, Jull's White Water Rafting Adventure continues to create lasting memories for adventurers of all levels.</p>
-        </section>
-
-        <section class="adventures">
-            <h2 class="arrangetwo">Adventure Awaits You!</h2>
-            <div class="adventures-images">
-            <figure>
-                <img src="images/whiteraftingone.jpeg" alt="Enjoying Rafting 1">
-                <figcaption>White Water Thrills</figcaption>
-            </figure>
-            <figure>
-                <img src="images/whiteraftingtwo.jpeg" alt="Enjoying Rafting 2">
-                <figcaption>Splash and smile</figcaption>
-            </figure>
-            <figure>
-                <img src="images/whiteraftingthree.jpeg" alt="Enjoying Rafting 3">
-                <figcaption>Half Day Adventure</figcaption>
-            </figure>
-            <figure>
-                <img src="images/whiteraftingfour.jpeg" alt="Enjoying Rafting 4">
-                <figcaption>River Rafting Fun</figcaption>
-            </figure>
-            <figure>
-                <img src="images/whiteraftingfive.jpeg" alt="Enjoying Rafting 5">
-                <figcaption>Nature's Exciting Ride</figcaption>
-            </figure>
-            </div>
-          </section>
-          
-
+        <h1>Contact Us</h1>
+        
+        <p class="p">Jull's White Water Rafting is a fun place to start your adventure!</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label>Purpose of Message:</label>
+            <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
+            <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+            <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        
+            <label>
+                <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter
+            </label>
+        
+            <input type="submit" value="Submit">
+        </form>
+        
     </main>
 
     <footer>
