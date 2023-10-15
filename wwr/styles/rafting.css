@@ -282,6 +282,15 @@ section .arrange {
     padding: 1rem;
 }
 
+iframe {
+    width: 600px; /* Set the width in pixels or another unit */
+    height: 450px; /* Set the height in pixels or another unit */
+    border: 0;
+    allowfullscreen: true;
+    loading: lazy;
+    referrerpolicy: no-referrer-when-downgrade;
+}
+
 /* FORM */
 
 body {
