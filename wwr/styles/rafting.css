@@ -159,6 +159,7 @@ article img {
     justify-content: center;
     padding: 1px;
     max-width: 100%;
+    margin: 0;
 }
 
 section .arrange {
@@ -206,18 +207,92 @@ section .arrange {
 
 .p {
     text-align: center;
+    background-color: transparent;
+    margin: 1rem;
 }
+
+.employee {
+    display: flex;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    gap: 5rem;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center;
+    margin: 2rem;
+    border: 5px solid var(--primary-color);
+}
+
+.employee img {
+    width: 250px; /* Adjust this value to set the desired width */
+    height: 200px;
+    padding: 1px;
+}
+
+.employee p {
+    background-color: transparent;
+    text-align: center;
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 5px solid var(--primary-color);
+    padding: 0;
+    margin: 10px;
+    color: var(--accent1-color);
+}
+
+#back h2, h1 {
+    padding: 1rem;
+    margin: 0;
+    background-color: #D9F3FC;
+}
+
+#back {
+    background-color: #FFE2C2;
+}
+
+.contact {
+    background-color: transparent;
+    text-align: center;
+}
+
+.map, .loc {
+    flex: 1; /* Equal width distribution */
+    max-width: 50%; /* Equal width for map and loc */
+}
+
+.loc img {
+    height: 450px;
+}
+
+.map iframe, .loc img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.add {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* FORM */
 
 body {
     font-family: Arial, sans-serif;
 }
+.side{
+    background-color: #023047;
+}
 
 form {
     max-width: 400px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 10px solid #023047;
+    background-color: var(--accent2-color);
 }
 
 label {
@@ -236,6 +311,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: medium;
     }
 
 input[type="radio"] {
@@ -265,3 +341,4 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
+/* map */

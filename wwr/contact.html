@@ -21,32 +21,70 @@
         </nav>
     </header>
     
-    <main>
+    <main id="back">
         <h1>Contact Us</h1>
-        
+    
         <p class="p">Jull's White Water Rafting is a fun place to start your adventure!</p>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        
-            <label>Purpose of Message:</label>
-            <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
-            <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
-            <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
-        
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-        
-            <label>
-                <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter
-            </label>
-        
-            <input type="submit" value="Submit">
-        </form>
-        
+
+        <h2>Company Information</h2>
+            <p class="contact">Phone: (123) 456-7890
+            <br>Email: jull'whitewateradventure@gmail.com </p>
+        <address class="info">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d22176.64645630516!2d123.15725340643831!3d7.847947150031059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x32540619ef0e03b1%3A0x4debcded1cd41e94!2sLakewood%20Municipal%20Hall!3m2!1d7.8547617999999995!2d123.1511304!4m5!1s0x325405f401465a1f%3A0x6c6d710739421064!2sV54M%2B9MR%20Alindahaw%20Lakeview%20Resort%2C%20Biswangan%2C%20Junction%20Tubod-Lakewood%20Rd%2C%20Bayan%20ng%20Lakewood%2C%20Zamboanga%20del%20Sur!3m2!1d7.8559931999999995!2d123.1841549!5e0!3m2!1sen!2sph!4v1697357621376!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="loc">
+                <img src="images/lakewood.jpeg" alt="Rafting area view">
+            </div>
+        </address>
+        <div class="add">
+            Lakewood Rd, Bayan ng Lakewood,<br>
+            Zamboanga del Sur, Philippines, 7014
+        </div>
+
+        <!-- Other HTML elements -->
+
+        <h2>Employee Profiles</h2>
+        <div class="employee">
+        <figure>
+            <img src="images/John.png" alt="Employee 1">
+            <p>John Doe<br>Raft Guide & Shuttle Driver</p>
+        </figure>
+        <figure>
+            <img src="images/Mia.png" alt="Employee 2">
+            <p>Mia Smith<br>Raft Guide & Manager</p>
+        </figure>
+        <figure>
+            <img src="images/Rey.png" alt="Employee 3">
+            <p>Rey Johnson<br>Raft Guide & Shuttle Driver</p>
+        </figure>
+        </div>
+
+<!-- Other HTML elements -->
+
+        <aside class="side">
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label>Purpose of Message:</label>
+                <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter
+                </label>
+            
+                <input type="submit" value="Submit">
+            </form>
+        </aside>
     </main>
 
     <footer>
