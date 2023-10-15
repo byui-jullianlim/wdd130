@@ -276,6 +276,10 @@ section .arrange {
 .add {
     text-align: center;
     margin: 1rem;
+    color: #570F0F;
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 /* FORM */
@@ -290,8 +294,9 @@ body {
 form {
     max-width: 400px;
     margin: auto;
+    position: relative;
     padding: 20px;
-    border: 10px solid #023047;
+    border: 30px solid #023047;
     background-color: var(--accent2-color);
 }
 
