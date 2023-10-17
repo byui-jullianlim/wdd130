@@ -146,7 +146,6 @@ p {
     padding: 15px;
     padding-left: 100px;
     padding-right: 100px;
-    padding: auto;
     color: white;
     background-color: var(--primary-color);
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
