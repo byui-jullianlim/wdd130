@@ -104,37 +104,26 @@ p {
 
 .hero img {
     display: block;
-    width: 100rem;
-    height: 50rem;
+    width: 100%;
+    height: 100%;
     opacity: 0.9;
 }
 
 .top {
     position: absolute;
-    top: 58%;
-    left: auto;
+    top: 53%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%); /* Center .top within .hero */
     width: 100%;
-    z-index: 1; /* Ensure .top is above .hero */
-}
-
-.top h1 {
-    bottom: 103%;
-    left: 15%;
-    display: flex;
-    position: absolute;
-    margin: 10px;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    color: white;
-    background-color: var(--primary-color);
 }
 
 .top article {
     margin: 3rem;
-    height: auto;
     padding: 3rem;
-    background-color: rgb(255, 255, 255);
-    max-width: 100%;
+    padding-bottom: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.8);
+    max-width: 100vw;
 }
 
 .top article img {
@@ -142,25 +131,56 @@ p {
     float: right; /* Float the image to the right */
     margin-right: 0;
     margin-left: 3%;
-    width: 35rem;
-    height: 30rem;
+    max-width: 40vw;
+    height: 70vh;
     padding: 0;
 }
 
+.top h1 {
+    display: flex;
+    position: absolute;
+    bottom: 103%;
+    left: 7%;
+    margin: 5px;
+    left: 24%;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: auto;
+    color: white;
+    background-color: var(--primary-color);
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    letter-spacing: 2.50px;
+}
+
 .top h3 {
-    margin: 10px;
-    padding: 3px;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    padding: 1px;
     text-align: center; /* Align h3 and p to the left */
     background-color: transparent;
     margin-top: 1px; /* Add margin to create space between h3 and p */
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1.18px;
 }
 
 .top p {
-    margin: 10px;
+    margin-top: 1%;
+    margin-bottom: 2%;
     padding: 3px;
     text-align: justify;
     background-color: transparent;
     margin-top: 1px; /* Add margin to create space between h3 and p */
+    line-height: 25px;
+    letter-spacing: 1.15px;
+}
+
+.mot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* HISTORY SECTION */
@@ -186,8 +206,6 @@ p {
     max-width: 100%;
     margin-top: 1%;
 }
-
-
 
 
 .footer {
@@ -279,7 +297,6 @@ p {
     background-color: transparent;
     text-align: center;
 }
-
 
 .info {
     display: flex;
