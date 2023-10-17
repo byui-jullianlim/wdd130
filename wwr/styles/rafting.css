@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #186380;
-    --secondary-color: #F09024;
+    --secondary-color: rgb(240, 144, 36);
     --accent1-color:#570F0F;
     --accent2-color:#D3ECEA;
 
@@ -95,16 +95,85 @@ p {
     background-color: gainsboro;
 }
 
+
+/* Jull's White Water Rafting */
+
+.hero div {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100rem;
+    height: 50rem;
+    opacity: 0.9;
+}
+
+.top {
+    position: absolute;
+    top: 58%;
+    left: auto;
+    width: 100%;
+    z-index: 1; /* Ensure .top is above .hero */
+}
+
+.top h1 {
+    bottom: 103%;
+    left: 15%;
+    display: flex;
+    position: absolute;
+    margin: 10px;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.top article {
+    margin: 3rem;
+    height: auto;
+    padding: 3rem;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+
+.top article img {
+    display: block;
+    float: right; /* Float the image to the right */
+    margin-right: 0;
+    margin-left: 3%;
+    width: 35rem;
+    height: 30rem;
+    padding: 0;
+}
+
+.top h3 {
+    margin: 10px;
+    padding: 3px;
+    text-align: center; /* Align h3 and p to the left */
+    background-color: transparent;
+    margin-top: 1px; /* Add margin to create space between h3 and p */
+}
+
+.top p {
+    margin: 10px;
+    padding: 3px;
+    text-align: justify;
+    background-color: transparent;
+    margin-top: 1px; /* Add margin to create space between h3 and p */
+}
+
+/* HISTORY SECTION */
+
 .history p {
     font-family: var(--paragraph-font);
     font-weight: bold;
-    color: var(--accent1-color);
-    background-color: var(--secondary-color);
     text-align: justify;
     justify-content: center;
     padding: 1rem;
     margin-top: 0.5rem;
     max-width: 100%;
+    background-color: transparent;
 }
 
 .history {
@@ -112,36 +181,14 @@ p {
     font-weight: bold;
     font-size: large;
     color: var(--primary-color);
-    background-color: var(--secondary-color);
     text-align: center;
     padding: 1rem 0;
     max-width: 100%;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
-.hero img {
-    display: flex;
-    position: absolute;
-    opacity: 0.2;
-    max-width: 100%;
-    height: 34rem;
-}
 
-article {
-    position: relative;
-    margin-bottom: auto;
-    max-width: 100%; 
-}
 
-article img {
-    float: right;
-    margin-left: 30px;
-    padding: 1rem;
-    border: 1px solid var(--accent1-color);
-    border-style: inset;
-    background-color: var(--secondary-color);
-    max-width: 100%;
-}
 
 .footer {
     background-color: transparent;
@@ -162,7 +209,7 @@ article img {
     margin: 0;
 }
 
-section .arrange {
+.arrange {
     margin-top: 0.5rem;
     padding: 0.5rem;
     align-items: center;
