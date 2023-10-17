@@ -109,11 +109,13 @@ p {
     opacity: 0.9;
 }
 
+
 .top {
     position: absolute;
-    top: 50%; /* Center vertically within .hero */
+    top: 53%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 50%;
+    transform: translate(-50%, -50%); /* Center .top within .hero */
     width: 100%;
 }
 
