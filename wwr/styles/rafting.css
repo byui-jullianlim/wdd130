@@ -77,7 +77,29 @@ a:active {
     color: var(--primary-color);
 }
 
-/* ENDING HEADER */
+/* FOOTER */
+
+.footer {
+    background-color: transparent;
+    text-align: center;
+    max-width: 100%;
+}
+  
+.sociallinks img {
+    max-width: 100%;
+    height: 60px;
+    background-color: transparent;
+}
+
+.sociallinks {
+    justify-content: center;
+    padding: 1px;
+    max-width: 100%;
+    margin: 0;
+    border: transparent;
+}
+
+/* ENDING FOOTER */
 
 h1,
 h2,
@@ -280,26 +302,6 @@ p {
 }
 
 
-/* FOOTER */
-
-.footer {
-    background-color: transparent;
-    text-align: center;
-    max-width: 100%;
-}
-  
-.sociallinks img {
-    max-width: 100%;
-    height: 60px;
-    background-color: transparent;
-}
-
-.sociallinks {
-    justify-content: center;
-    padding: 1px;
-    max-width: 100%;
-    margin: 0;
-}
 
 
 
