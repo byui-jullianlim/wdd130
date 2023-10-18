@@ -118,7 +118,7 @@ p {
 
 .top {
     position: absolute;
-    top: 42%;
+    top: 41%;
     left: 50%;
     bottom: 50%;
     transform: translate(-50%, -50%); /* Center .top within .hero */
@@ -146,8 +146,7 @@ p {
 .top h1 {
     display: flex;
     position: absolute;
-    bottom: 103%;
-    left: 7%;
+    bottom: 116%;
     margin: 5px;
     left: 24%;
     padding: 15px;
