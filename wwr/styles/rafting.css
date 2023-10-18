@@ -26,7 +26,6 @@ header {
     max-width: 100%;
     padding-left: 17.5rem;
     padding-right: 18rem;
-    margin-bottom: 9px;
 }
 
 header img {
@@ -79,27 +78,45 @@ a:active {
     text-decoration: underline;
     color: var(--primary-color);
 }
-
 /* FOOTER */
 
 .footer {
-    background-color: transparent;
-    text-align: center;
     max-width: 100%;
+    padding: 1px;
+    margin-top: 3rem; /* Adjust the margin as needed */
+    background-color: transparent;
+    border: transparent;
+    color: #023047;
+    margin-top: 2rem ;
 }
-  
-.sociallinks img {
-    max-width: 100%;
-    height: 60px;
-    background-color: transparent;
+
+p.footer {
+    position: absolute;
+    left: 27%;
+    margin: 2rem;
+    line-height: 25px;
+    letter-spacing: 3.15px;
+    z-index: 1;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .sociallinks {
-    justify-content: center;
+    justify-content: right; /* Align the social links to the right */
     padding: 1px;
     max-width: 100%;
     margin: 0;
     border: transparent;
+    background-color: #FFB703;
+    position: relative;
+}
+
+.sociallinks img {
+    max-width: 60px; /* Adjust the width of the social media icons as needed */
+    height: 60px;
+    background-color: transparent;
+    margin-left: 10px; /* Add margin to move the icons to the right */
+    position: relative;
+    margin: 0 0 0 -6rem; /* Adjjust Space between */
 }
 
 /* ENDING FOOTER */
@@ -139,6 +156,7 @@ p {
     width: 100%;
     height: 100%;
     opacity: 0.9;
+    margin-top: 1rem;
 }
 
 .top {
