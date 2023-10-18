@@ -36,12 +36,11 @@ header img {
 
 nav {
     background-color: #FFB703;
-    display: grid;
+    display: flex;
     margin: 1rem 2rem; /* Adjust margin for both top and right to move it slightly to the right */
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
-    display: flex;
     align-items: center;
     font-size: medium;
     font-weight: 600;
