@@ -500,7 +500,7 @@ input[type="Done"]:hover {
     letter-spacing: 5.20px;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: transparent;
-    transition: color 0.5s ease-in-out; 
+    transition: color 0.3s ease-in-out; 
 }
 
 .home-heading h1:hover {
