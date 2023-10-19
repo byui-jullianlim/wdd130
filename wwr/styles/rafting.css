@@ -474,3 +474,68 @@ input[type="submit"] {
 input[type="Done"]:hover {
     background-color: #45a049;
 }
+
+/* ENDING FORM */
+
+/* HOME PAGE */
+
+.home-section {
+    position: relative;
+}
+
+.home-pic img {
+    max-width: 100%;
+    filter: grayscale(20%);
+}
+
+.home-heading h1 {
+    top:10px;
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    left: 16%;
+    top:4%;
+    text-align: center;
+    letter-spacing: 5.20px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: transparent;
+    transition: color 0.5s ease-in-out; 
+}
+
+.home-heading h1:hover {
+    color: gray; /* Change the text color on hover */
+}
+
+/* ENDING HOME PAGE */
+.call-to-action p {
+    text-align: center; /* Center-align the text within the <p> element */
+    background-color: transparent;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.call-to-action {
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 2rem;
+}
+
+.call-to-action a {
+    width: 200px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    font-weight: bold;
+    font-size: larger;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #570F0F;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.call-to-action a:hover {
+    color: #FFB703; /* Change the text color on hover */
+    transition: color 0.5s ease-in-out; 
+}
