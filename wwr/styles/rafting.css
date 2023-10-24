@@ -569,6 +569,8 @@ input[type="Done"]:hover {
     margin: 8%;
     font-size: 1.5em;
     font-weight: bold;
+    font-family: Mulish;
+    color: #570F0F;
 }
 
 /* GRID CONTENT */
