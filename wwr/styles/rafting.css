@@ -369,14 +369,14 @@ p {
     color: var(--accent1-color);
 }
 
-#back h2, h1 {
+#backmain h2, h1 {
     padding: 1rem;
     margin: 0;
     background-color: #D9F3FC;
 }
 
-#back {
-    background-color: #FFE2C2;
+#backmain {
+
 }
 
 .contact {
@@ -457,10 +457,6 @@ input[type="radio"] {
 label.radio-label {
     display: inline;
     font-weight: normal;
-}
-
-#newsletter {
-    margin-top: 10px;
 }
 
 input[type="submit"] {
@@ -547,7 +543,7 @@ input[type="Done"]:hover {
     color: white;
 }
 
-/*FONT STYLE OF THE HEADINGS ON TOP OF THE IMAGES*/
+/* FONT STYLE OF THE HEADINGS ON TOP OF THE IMAGES */
 .home-title h1 {
     font-family: Satisfy;
 }
@@ -560,43 +556,182 @@ input[type="Done"]:hover {
 /* TO CHANGE THE COLOR OF THE HOVER */
 .home-heading h1:hover {
     color: #FFB703; 
-    text-shadow: 3px 3px 0 #000;
+    text-shadow: 3px 3px 0 #000; /*Adding Shadow*/
 }
 
 /* ENDING RAFTING HOME PAGE */
 
+/* CATCHY DESCRIPTION */
+
+#some-description {
+    background-color: transparent;
+    text-align: center;
+    margin: 8%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* GRID CONTENT */
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* creates a grid layout with three columns */
+    grid-gap: 0; /* between each grid item */
+    margin-top: 5rem;
+}
+
+.grid-item:nth-child(3n) {
+    margin-bottom: 20%;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item img {
+    width: 400px; /* ensure that the image fills the entire width of its container. */
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.grid-item img:hover {
+    transform: scale(1.3); /* increase the size of the image by 30% */
+}
+
+.p1 {
+    color: var(--primary-color);
+    background-color: transparent;
+    margin: 0;
+    font-weight: 900;
+    font-size: medium;
+    letter-spacing: 1px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.grid-item p {
+    background-color: transparent;
+    margin-top: 1px; /* space between the image and the text. */
+    padding: 15px;
+    line-height: 30px;
+}
 
 
+/* CALL TO ACTION WITH LINK TO TRIP PAGE */
 
+.call-to-action { /* Container */
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .call-to-action p {
     text-align: center; /* Center-align the text within the <p> element */
     background-color: transparent;
-    font-size: larger;
+    font-size: 3em;
     font-weight: 900;
-}
-
-.call-to-action {
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding: 2rem;
+    font-family: "Luckiest Guy";
+    margin-top: 0;
+    margin-bottom: 1%;
+    color: #FFB703;
+    letter-spacing: 1.5px;
+    line-height: 70px;
+    padding-top: 70px;
 }
 
 .call-to-action a {
     width: 200px; /* Adjust the width as needed */
-    margin: 0 auto; /* Center horizontally */
-    font-weight: bold;
-    font-size: larger;
+    font-weight: 600;
+    font-size: 20px;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #570F0F;
     letter-spacing: 1px;
     text-decoration: none;
     text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 5%;
 }
-
 
 .call-to-action a:hover {
     color: #FFB703; /* Change the text color on hover */
-    transition: color 0.5s ease-in-out; 
+    transition: color 0.2s ease-in-out; 
+}
+
+
+/* HOME PAGE NEWSLETTER FORM */
+#back {
+    background-color: #023047;
+    margin-bottom: 0;
+    margin-top: 11%;
+}
+
+.newsletter { /* container */
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    padding: 50px;
+}
+
+.newsletter form {
+    background-color: white;
+    border: transparent;
+    position: relative;
+    border: 30px solid #023047;
+    background-color: var(--accent2-color);
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    background-color: white;
+    color: black;
+}
+
+.newsletter button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+.newsletter h1 {
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.newsletter p {
+    color: #FFB703;
+    position: absolute;
+    background-color: transparent;
+    font-size: 25px;
+    font-family: Mulish;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* RULES SET TO ALIGN <P> AND FORM ELEMENT */
+
+.newsletter p {
+    left: 53%;
+    padding-top: 7%;
+    padding-right: 5%;
+}
+
+.newsletter form {
+    right: 20%;
 }
