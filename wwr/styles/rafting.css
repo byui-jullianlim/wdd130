@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish&family=Satisfy&display=swap');
 
 :root {
     --primary-color: #186380;
@@ -43,6 +44,7 @@ nav {
     align-items: center;
     font-size: medium;
     font-weight: 600;
+    font-family: Mulish;
     gap: 3rem;
     align-items: center;
     justify-content: space-between;
@@ -78,6 +80,7 @@ a:active {
     text-decoration: underline;
     color: var(--primary-color);
 }
+
 /* FOOTER */
 
 .footer {
@@ -97,7 +100,7 @@ p.footer {
     line-height: 25px;
     letter-spacing: 3.15px;
     z-index: 1;
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Mulish;
 }
 
 .sociallinks {
@@ -410,10 +413,10 @@ iframe {
     border: 0;
 }
 
-/* FORM */
+/* CONTACT US FORM */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:  "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .backdesign {
     background-color: #023047;
@@ -475,39 +478,97 @@ input[type="Done"]:hover {
     background-color: #45a049;
 }
 
-/* ENDING FORM */
+/* ENDING CONTACT US FORM */
 
-/* HOME PAGE */
+/* RAFTING HOME PAGE */
 
 .home-section {
     position: relative;
 }
 
+/* DIV DEFAULT RULES */
 .home-pic img {
     max-width: 100%;
     filter: grayscale(20%);
 }
 
-.home-heading h1 {
-    top:10px;
+.home-title,
+.home-add {
     position: absolute;
+    top: 60px;
+    left: 21%;
+    z-index: 1;
+}
+
+.home-heading {
+    position: absolute;
+    bottom: 60px;
+    left: 21%;
+    z-index: 1;
+}
+
+/* H1 DEFAULT RULES */
+.home-title h1,
+.home-add h1,
+.home-heading h1 {
+    position: relative; 
     color: white;
-    font-size: 5rem;
-    font-weight: 600;
-    left: 16%;
-    top:4%;
     text-align: center;
-    letter-spacing: 5.20px;
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: transparent;
     transition: color 0.3s ease-in-out; 
 }
 
-.home-heading h1:hover {
-    color: gray; /* Change the text color on hover */
+
+/* FONT SIZE */
+.home-title h1 { /* JWW */
+    color: #FFB703;
+    font-size: 7em;
+    font-weight: 600;
+    letter-spacing: 5.20px;
+    top: -35px; /* Move it up */
+    right: 19px;
+    text-shadow: 3px 3px 0 #000;
 }
 
-/* ENDING HOME PAGE */
+.home-add h1 { /* Rafting */
+    font-size: 11em;
+    font-weight: 600;
+    letter-spacing: 5.20px;
+    left: 70px;
+    top: 70px; /* Move it down */
+
+}
+
+.home-heading h1 { /* Tagline */
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 5.20px;
+    transform: skewY(-10deg); /*To make it Slanting*/
+    color: white;
+}
+
+/*FONT STYLE OF THE HEADINGS ON TOP OF THE IMAGES*/
+.home-title h1 {
+    font-family: Satisfy;
+}
+
+.home-add h1,
+.home-heading h1 {
+    font-family: "Luckiest Guy";
+}
+
+/* TO CHANGE THE COLOR OF THE HOVER */
+.home-heading h1:hover {
+    color: #FFB703; 
+    text-shadow: 3px 3px 0 #000;
+}
+
+/* ENDING RAFTING HOME PAGE */
+
+
+
+
+
 .call-to-action p {
     text-align: center; /* Center-align the text within the <p> element */
     background-color: transparent;
