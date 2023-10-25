@@ -380,7 +380,8 @@ p {
     text-align: center;
 }
 
-.map, .loc {
+.map, 
+.loc {
     flex: 1; /* Equal width distribution */
     max-width: 50%; /* Equal width for map and loc */
 }
@@ -623,8 +624,8 @@ input[type="Done"]:hover {
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     margin-left: 5%;
     margin-right: 5%;
 }
