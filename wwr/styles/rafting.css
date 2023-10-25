@@ -757,16 +757,16 @@ input[type="submit"]:hover {
 }
 
 
-.trip-first img {
+.trip-first-img img {
     max-width: 100%;
     position: relative;
-    filter: brightness(70%); /* To adjust the brightness of the image */
+    filter: brightness(80%); /* To adjust the brightness of the image */
 }
 
 /* SECTION */
 .cta {
     position: absolute;
-    top: 85%;
+    top: 83%;
     left: 38%;
 }
 
@@ -809,47 +809,70 @@ input[type="submit"]:hover {
     letter-spacing: 1px;
 }
     
-  .table-trips {
+.table-trips {
     width: 80%;
     border-collapse: collapse; 
     margin-bottom: 10%;
     margin-left: 10%;
-  }
-  
-.table-trips td {
-    font-family: Mulish;
 }
 
-  .table-trips th,
-  .table-trips td {
+.table-trips th {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.table-trips th,
+.table-trips td {
     border: 1px solid #ddd;
     padding: 20px;
     text-align: center;
     line-height: 2em;
     font-size: 1rem;
-  }
+}
   
-  .table-trips th {
+.table-trips th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: #FFB703;
     color: #023047;
-  }
+}
 
 
     /* The .table-trips tr:nth-child(even) selector targets 
     every even row (tr) of the table with the class table-trips */
 
-  .table-trips tr:nth-child(even) {
-    background-color: #fff3d3;
-  }
-  
+.table-trips tr:nth-child(even) {
+    background-color: white;
+}
+ 
+
+.table-trips tr:nth-child(odd) {
+    background-color: white;
+}
   /* TABLE IMAGE */
 
-  td img {
+td img {
     max-width: 100%;
     object-fit: cover;
     display: block;
     padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+/* TRIP GIF */
+
+.all-gif {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    z-index: -1;
+    border-top: 20px solid #023047;
+
+}
+
+.raft-gif img {
+    width: 100%;
+    height: 100%;
 }
