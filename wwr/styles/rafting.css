@@ -814,7 +814,7 @@ input[type="submit"]:hover {
     border-collapse: collapse; 
     margin-bottom: 10%;
     margin-left: 10%;
-    border-bottom: 5px solid #ffe093;
+    border-bottom: 2px solid #ffe093;
 }
 
 .table-trips th {
