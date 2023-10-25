@@ -859,7 +859,7 @@ td img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: relative;
     z-index: -1;
-    border-top: 20px solid #023047;
+    border-bottom: 15px solid #023047;
 
 }
 
