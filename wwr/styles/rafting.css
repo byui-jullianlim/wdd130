@@ -805,7 +805,7 @@ input[type="submit"]:hover {
     margin-bottom: 20px;
     color: var(--primary-color);
     background-color: transparent;
-    padding: 10%;
+    padding: 8%;
     letter-spacing: 1px;
 }
     
@@ -814,6 +814,7 @@ input[type="submit"]:hover {
     border-collapse: collapse; 
     margin-bottom: 10%;
     margin-left: 10%;
+    border-bottom: 5px solid #ffe093;
 }
 
 .table-trips th {
@@ -835,22 +836,12 @@ input[type="submit"]:hover {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #FFB703;
+    background-color: #ffe093;
     color: #023047;
 }
-
-
     /* The .table-trips tr:nth-child(even) selector targets 
     every even row (tr) of the table with the class table-trips */
 
-.table-trips tr:nth-child(even) {
-    background-color: white;
-}
- 
-
-.table-trips tr:nth-child(odd) {
-    background-color: white;
-}
   /* TABLE IMAGE */
 
 td img {
