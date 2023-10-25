@@ -737,3 +737,122 @@ input[type="submit"]:hover {
 .newsletter form {
     right: 20%;
 }
+
+/* TRIPS PAGE CSS RULES */
+
+/* MAIN SECTION CALL TO ACTION */
+
+.trip-first {
+    position: relative;
+}
+
+.trip-first h1 {
+    font-size: 3.5em;
+    position: absolute;
+    z-index: 1;
+    bottom: 78%;
+    left: 40%;
+    padding: 2rem;
+    color: white;
+    background-color: transparent;
+    text-shadow: 1px 1px black;
+    text-align: right;
+}
+
+
+.trip-first img {
+    max-width: 100%;
+    position: relative;
+    filter: brightness(70%); /* To adjust the brightness of the image */
+}
+
+/* SECTION */
+.cta {
+    position: absolute;
+    top: 85%;
+    left: 38%;
+}
+
+.cta h2,
+.cta a {
+    background-color: transparent;
+    text-align: center;
+}
+
+.cta h2 {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+
+.cta a {
+    color: white;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+/* TRIP PAGE TABLE */
+  
+
+    /* The border-collapse: collapse; used to specify whether
+    the borders of table cells should be collapsed into a 
+    single border or detached as in standard HTML12. When 
+    set to collapse, adjacent table cells will share borders, 
+    giving the table a more compact appearance12. */
+
+  
+#avail-h1 h1 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    background-color: transparent;
+    padding: 10%;
+    letter-spacing: 1px;
+}
+    
+  .table-trips {
+    width: 80%;
+    border-collapse: collapse; 
+    margin-bottom: 10%;
+    margin-left: 10%;
+  }
+  
+.table-trips td {
+    font-family: Mulish;
+}
+
+  .table-trips th,
+  .table-trips td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    line-height: 2em;
+    font-size: 1rem;
+  }
+  
+  .table-trips th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #FFB703;
+    color: #023047;
+  }
+
+
+    /* The .table-trips tr:nth-child(even) selector targets 
+    every even row (tr) of the table with the class table-trips */
+
+  .table-trips tr:nth-child(even) {
+    background-color: #fff3d3;
+  }
+  
+  /* TABLE IMAGE */
+
+  td img {
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    padding-top: 4%;
+}
